@@ -1,0 +1,60 @@
+.listItem {
+    background-color: hsl(0, 0%, 94%);
+    color: black;
+    font-weight: bold;
+    padding: 0.3rem;
+    margin-top: 0.1rem;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+div#root {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 1rem;
+}
+#addItemForm {
+    position: absolute;    
+    transform: translate(-50%,0%);
+    left: 50%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+#mainlist {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 23rem;
+    height: 21rem;
+    overflow-y:auto;
+}
+input[type="text"]{
+    border: 0.2rem black solid;
+    border-radius: 0.1rem;
+    width: 8rem;
+    height:1.4rem;
+    padding: 0px;
+    font-size: 1.5vw;
+}
+#addBtn {
+    border: 0.2rem black solid;
+    border-radius: 0.1rem;
+    width: 8rem;
+    height:1.6rem;
+    padding: 0px;
+    font-size: 1.5vw;
+}
+.removeBtn {
+    position: absolute;
+    width: 4rem;
+    height: 2rem;
+    text-align: center;
+    right: 2rem;
+    font-size: inherit;
+}
